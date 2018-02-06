@@ -3,4 +3,4 @@ encoding: UTF-8
 kramdown:
   input: GFM
   hard_wrap: false
-theme: jekyll-theme-slate
+theme: jekyll-theme-merlot
