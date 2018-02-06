@@ -1,10 +1,10 @@
 // single promise
-var slowCall = new Promise(function (resolve, reject){
-    setTimeout(function (){
+var slowCall = new Promise(function (resolve, reject) {
+    setTimeout(function () {
         resolve(10);
         //reject ('Error val');
-    },2000);
-
+    }, 2000);
+});
 
 slowCall
 .then(function (result) {
