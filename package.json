@@ -1,0 +1,25 @@
+{
+  "name": "javascript-demo",
+  "version": "1.0.0",
+  "description": "Demonstration of various javascript and node functionality",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bbahrman/javascript-demo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bbahrman/javascript-demo/issues"
+  },
+  "homepage": "https://github.com/bbahrman/javascript-demo#readme",
+  "devDependencies": {
+    "jasmine": "^3.0.0"
+  }
+}

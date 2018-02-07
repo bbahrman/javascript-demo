@@ -5,6 +5,7 @@ var slowCall = new Promise(function (resolve, reject) {
         //reject ('Error val');
     }, 2000);
 });
+console.log('Promise created');
 
 slowCall
 .then(function (result) {
@@ -84,3 +85,5 @@ secondAdd
     .catch(function (err) {
         console.log('Error in second add function = ' + err)
     });
+
+exports.add = slowAdd;
