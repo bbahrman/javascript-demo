@@ -1,7 +1,7 @@
 {
   "name": "javascript-demo",
   "version": "1.0.0",
-  "description": "Demonstration of various javascript and node functionality",
+  "description": "Writing a demo of JavaScript in Node.js",
   "main": "index.js",
   "directories": {
     "doc": "docs"
@@ -13,7 +13,8 @@
     "type": "git",
     "url": "git+https://github.com/bbahrman/javascript-demo.git"
   },
-  "author": "",
+  "keywords": [],
+  "author": "Ben Bahrman <ben@bahrman.org>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/bbahrman/javascript-demo/issues"
