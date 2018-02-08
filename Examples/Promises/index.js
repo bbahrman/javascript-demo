@@ -84,3 +84,5 @@ secondAdd
     .catch(function (err) {
         console.log('Error in second add function = ' + err)
     });
+
+exports.slowAdd = slowAdd;
